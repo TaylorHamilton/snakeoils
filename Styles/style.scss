@@ -1,0 +1,125 @@
+$textColor: black;
+$default: 'Spooky', serif, sans-serif;
+$rotateAndTransform: rotate(90deg) translateY(-575px) translateX(-300px);
+$outLine: 1px solid red;
+$funOutline: 2px solid rgba(0, 0, 0, 0.01);
+$newShadow: inset rgba(255, 0, 0, 0.01) 2px 2px 10px;
+$newColor: rgba(0, 0, 0, 0.01);
+
+html {
+	background-image: linear-gradient(rgb(230, 230, 230), rgb(151, 151, 151), rgb(80, 80, 80));
+}
+
+html::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+body {
+	z-index: 0;
+	max-width: 1280px;
+	min-width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: $default;
+}
+
+header {
+	position: relative;
+	font-size: 2.465em;
+	text-align: center;
+}
+
+nav#rightNav > ul {
+	transform: $rotateAndTransform;
+}
+
+ul > li {
+	float: right;
+	list-style-type: none;
+	padding: 4px 4px 4px 4px;
+	outline: $outLine;
+	text-align: center;
+
+	/*Background Styles */
+	box-shadow: inset rgb(151, 151, 151) 5px 0px 10px;
+}
+
+nav#rightNav a {
+	text-align: center;
+	color: rgba(255, 255, 255, 2.0);
+	text-decoration: none;
+}
+
+li[id^="link"] {
+	font-weight: bold;
+	font-size: 1.35em;
+	text-align: center;
+	overflow: unset;
+}
+
+nav#rightNav {
+	position: absolute;
+	float: right;
+	text-align: center;
+}
+
+li#link1 {
+	outline: $funOutline;
+	box-shadow: $newShadow;
+	color: $newColor;
+	position: absolute;
+	transform: translateX(170px) translateY(10px);
+	font-size: 2em;
+}
+
+li#link1 > a {
+	color: $newColor;
+}
+
+li#link2 {
+	position: absolute;
+	transform: translateX(-14px) translateY(10px);
+	padding: 0px;
+	outline: $funOutline;
+	box-shadow: $newShadow;
+}
+
+li#link2 > a {
+	font-size: 2em;
+	color: $newColor;
+}
+
+li#link3 {
+	position: absolute;
+	transform: translateX(-200px);
+	outline: $funOutline;
+	box-shadow: $newShadow;
+	color: $newColor;
+}
+
+li#link3 > a {
+	font-size: 1.8em;
+	color: $newColor;
+}
+p {
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	text-indent: 2em;
+	padding: 5px;
+}
+
+div.bottom > img {
+	box-sizing: border-box;
+	height: 20px;
+	width: 50%;
+}
+
+map {
+	background-color: white;
+	color: white;
+	display: block;
+	z-index: 1;
+}

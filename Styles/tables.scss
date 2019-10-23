@@ -1,0 +1,55 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	display: default;
+	outline: px solid white;
+}
+table {
+	width: 960px;
+	height: 100%;
+	float: left;
+	display: table;
+}
+
+tr#headerRow {
+	outline: solid black;
+	width: 90%;
+}
+
+th {
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.75em;
+}
+
+table td {
+	width: 33.333%;
+	height: 25%;
+	outline: solid black;
+}
+
+td#itemCell {
+	color: red;
+	width: 20%;
+}
+
+td#descCell {
+	width: 80%;
+}
+
+aside {
+	float: right;
+}
+
+aside > blockquote {
+	height: 33%;
+}
+
+#tableimage {
+	size: fill;
+	height: 100%;
+	width: 100%;
+}

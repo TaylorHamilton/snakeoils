@@ -1,0 +1,155 @@
+html {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), color-stop(#979797), to (#505050));
+  background-image: linear-gradient(#e6e6e6, #979797, #505050) ;
+  z-index: 2;
+}
+
+html::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+body {
+  z-index: 0;
+  max-width: 1280px;
+  min-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Spooky", serif, sans-serif;
+}
+
+header {
+  position: relative;
+  font-size: 2.465em;
+  text-align: center;
+}
+
+nav#rightNav > ul {
+  -webkit-transform: rotate(90deg) translateY(-575px) translateX(-300px);
+          transform: rotate(90deg) translateY(-575px) translateX(-300px);
+}
+
+ul > li {
+  float: right;
+  list-style-type: none;
+  padding: 4px 4px 4px 4px;
+  outline: 1px solid red;
+  text-align: center;
+  /*Background Styles */
+  -webkit-box-shadow: inset #979797 5px 0px 10px;
+          box-shadow: inset #979797 5px 0px 10px;
+}
+
+nav#rightNav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+li[id^="link"] {
+  font-weight: bold;
+  font-size: 1.35em;
+  text-align: center;
+  overflow: unset;
+}
+
+nav#rightNav {
+  position: absolute;
+  float: right;
+  text-align: center;
+}
+
+li#link1 {
+  outline: 2px solid rgba(0, 0, 0, 0.01);
+  -webkit-box-shadow: inset rgba(255, 0, 0, 0.01) 2px 2px 10px;
+          box-shadow: inset rgba(255, 0, 0, 0.01) 2px 2px 10px;
+  color: rgba(0, 0, 0, 0.01);
+  position: absolute;
+  -webkit-transform: translateX(170px) translateY(10px);
+          transform: translateX(170px) translateY(10px);
+  font-size: 2em;
+}
+
+li#link1 > a {
+  color: rgba(0, 0, 0, 0.01);
+}
+
+li#link2 {
+  position: absolute;
+  -webkit-transform: translateX(-14px) translateY(10px);
+          transform: translateX(-14px) translateY(10px);
+  padding: 0px;
+  outline: 2px solid rgba(0, 0, 0, 0.01);
+  -webkit-box-shadow: inset rgba(255, 0, 0, 0.01) 2px 2px 10px;
+          box-shadow: inset rgba(255, 0, 0, 0.01) 2px 2px 10px;
+}
+
+li#link2 > a {
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.01);
+}
+
+li#link3 {
+  position: absolute;
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+  outline: 2px solid rgba(0, 0, 0, 0.01);
+  -webkit-box-shadow: inset rgba(255, 0, 0, 0.01) 2px 2px 10px;
+          box-shadow: inset rgba(255, 0, 0, 0.01) 2px 2px 10px;
+  color: rgba(0, 0, 0, 0.01);
+}
+
+li#link3 > a {
+  font-size: 1.8em;
+  color: rgba(0, 0, 0, 0.01);
+}
+
+p {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  text-indent: 2em;
+  padding: 5px;
+}
+
+div.bottom > img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 20px;
+  width: 50%;
+}
+blockquote{
+  font-family: fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8em;
+  border: 5px double black;
+  width: 225%;
+  height: 180px;
+  margin: 0px 0px 0px 7%;
+  border-radius: 25px;
+  box-shadow: inset black 5px 5px 15px,
+  black 5px 5px 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#second{
+  font-family: fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8em;
+  border: 5px double black;
+  width: 90%;
+  height: 600px;
+  margin: 0px 0px 0px 7%;
+  border-radius: 25px;
+  box-shadow: inset black 5px 5px 15px,
+  black 5px 5px 15px;
+  padding-right: 20px;
+}
+img#dot:first-of-type{
+  position: relative;
+  right: 50%;
+  left: -10%;
+}
+a{
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

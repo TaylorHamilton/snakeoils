@@ -1,0 +1,29 @@
+*::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+div#container {
+  width: 40%;
+}
+
+div.half {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+div.row {
+  width: 100%;
+  float: left;
+}
+
+div[class^="col-"] {
+  float: left;
+}
+
+div.col-1-2 {
+  width: 50%;
+}
+/*# sourceMappingURL=layout.css.map */

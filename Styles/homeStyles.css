@@ -1,0 +1,26 @@
+img {
+  padding-left: 25%;
+  z-index: 2;
+  display: block;
+}
+
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 38%;
+  left: 34%;
+  right: 25.5%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block > p {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=homeStyles.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACD,SAAS,EAAE,OAAO;CAClB",
+    "sources": [
+        "remedyStyles.scss"
+    ],
+    "names": [],
+    "file": "remedyStyles.css"
+}

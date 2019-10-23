@@ -1,0 +1,73 @@
+
+body {
+  display: default;
+  outline: px solid white;
+}
+td#imageCell > img#tableImage {
+  position: relative;
+  transform: translateX(3%);
+  overflow: hidden;
+  height: 600px;
+  width: 800px;
+}
+table {
+  width: 960px;
+  height: 100%;
+  float: left;
+  display: table;
+}
+
+tr#headerRow {
+  outline: solid black;
+  width: 90%;
+}
+
+th {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+table td {
+  width: 33.333%;
+  height: 25%;
+  outline: solid black;
+}
+
+td#itemCell {
+  color: black;
+  width: 20%;
+  padding-left: 40px;
+}
+
+td#descCell {
+  width: 80%;
+}
+
+aside {
+  float: right;
+}
+
+aside > blockquote {
+  height: 33%;
+  width: 250px;
+  font-size: 100%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  padding: 10px
+}
+
+.dead{
+  font-size: 50px;
+}
+td{
+  font-size: 20px;
+}
+#headerRow{
+  text-indent: 175%;
+}
+/*# sourceMappingURL=tables.css.map */
